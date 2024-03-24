@@ -45,6 +45,9 @@ img{
     color: black;
     margin: 5px;
 }
+.navA img {
+    width: 5%;
+}
 .rigth{
     width: 65%;
     background-color: white;
