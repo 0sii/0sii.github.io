@@ -111,13 +111,13 @@ h1{
 }
 
 .boton:hover{
-    background-color: #b05deb;
+    background-color: #367431;
     color: aliceblue;
 }
 
 .boton {
     font-family:"Nanum Brush Script";
-    background-color: #c099ea;
+    background-color: #45933F;
     color: #050505;
     padding: 8px 28px;
     line-height: 24px;
