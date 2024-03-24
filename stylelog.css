@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nanum-brush script-regular {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container{
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #949494 ;
+}
+
+
+.left{
+    text-align: center;
+    align-items: center;
+    width: 35%;
+    background-color: #afafaf;
+    position: relative;
+}
+
+img{
+    padding-top: 25%;
+    width: 100%;
+}
+
+.navA{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.navA a{
+    font-size: 30px;
+    font-family: Nanum Brush Script;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.navA img {
+    padding-top: 5%;
+    width: 5%;
+}
+.rigth{
+    width: 65%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerB{
+    font-family:"Nanum Brush Script";
+    position: absolute;
+    box-sizing: border-box;
+    top: 5%;
+    right: 5%;
+}
+
+.btn:hover{
+    background-color: #b05deb;
+    color: aliceblue;
+}
+.btn {
+    background-color: #c099ea;
+    color: #050505;
+    font-family:"Nanum Brush Script";
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h1{
+    font-family:"Nanum Brush Script", cursive;
+    font-size: xx-large;
+    margin: 10% 45% 5%;
+    width: 20%;
+}
+
+.email{
+    font-family:"Nanum Brush Script";
+    width: 50%;
+    height: 10%;
+    margin-left: 30%;
+    border-style: none;
+}
+
+.password{
+    width: 50%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 30%;
+    border-style: none;
+    font-family:"Nanum Brush Script";
+}
+
+.radio{
+    font-family:"Nanum Brush Script";
+    margin-top: 5%;
+    margin-left: -17%;
+    flex-direction: row;
+    font-size: small;
+}
+
+.boton:hover{
+    background-color: #367431;
+    color: aliceblue;
+}
+
+.boton {
+    font-family:"Nanum Brush Script";
+    background-color: #45933F;
+    color: #050505;
+    padding: 8px 28px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 30%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.rigth a{
+    font-family:"Nanum Brush Script";
+    color: #c6c6df;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: -22%;
+}
